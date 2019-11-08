@@ -1,0 +1,20 @@
+name: SetPrefix
+main: org.setprefix.main
+version: 0.1
+api-version: 1.14
+prefix:
+depend: [PermissionsEx]
+commands:
+  prefix:
+    description: Set your prefix
+    usage: /prefix <prefix>
+  setprefix:
+    description: Manage prefix of other players
+    usage: /setprefix <player> <prefix>
+permissions:
+  setprefix.use:
+    description: Allows a player to set their prefix
+    default: op
+  setprefix.others:
+    description: Allows a player to set other players' prefix
+    default: op      
